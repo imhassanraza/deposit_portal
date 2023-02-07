@@ -1,0 +1,55 @@
+.mt30 {margin-top: 30px;}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #1ab394;
+}
+label.error {
+    font-weight: 400;
+    margin-left: 0px !important;
+    margin-top: 2px;
+}
+.pr-row label.error {
+    display: none !important;
+}
+.font-bolds {
+    font-weight: bold !important;
+}
+.me-btn {
+	margin-right: 10px;
+}
+.no-padd {
+	padding: 15px 0px;
+}
+#ship-modal .modal-icon {
+    font-size: 27px;
+}
+#ship-modal .modal-header {
+    padding: 15px 15px;
+    text-align: left;
+}
+#ship-modal .modal-header h4 {
+    display: inline-block;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none !important;
+}
+.close:focus {
+    outline: none !important;
+}
+.datepicker {
+    z-index: 1600 !important; /* has to be larger than 1050 */
+}
+@media (min-width: 768px){
+.dl-horizontal dt {
+    width: 70px !important;
+}
+.dl-horizontal dd {
+    margin-left: 75px !important;
+}
+}
+.add-btn-div {
+    padding-top: 22px;
+}
+.pr-row {
+    margin-bottom: 10px;
+}
+
